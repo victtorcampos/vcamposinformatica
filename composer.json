@@ -1,0 +1,18 @@
+{
+    "name": "victtorcampos/vcamposinformatica",
+    "authors": [
+        {
+            "name": "Victor Campos",
+            "email": "victor-campos@outlook.com"
+        }
+    ],
+    "require": {
+    	"slim/slim":"3.0",
+      "rain/raintpl": "3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "APP\\": "vendor\\vcinfo\\src\\app"
+        }
+    }
+}
